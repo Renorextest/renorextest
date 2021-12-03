@@ -79,9 +79,41 @@ namespace TVPNGitDemo
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left DoubleClick item 'Explorer1.RecycleBin' at 4;4.", repo.Explorer1.RecycleBinInfo, new RecordItemIndex(0));
+            repo.Explorer1.RecycleBin.DoubleClick(new Location(RecycleBin_Screenshot1, "4;4", RecycleBin_Screenshot1_Options));
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'RecycleBin.Close' at 4;4.", repo.RecycleBin.CloseInfo, new RecordItemIndex(1));
+            repo.RecycleBin.Close.Click(new Location(Close_Screenshot1, "4;4", Close_Screenshot1_Options));
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage RecycleBin_Screenshot1
+        { get { return repo.Explorer1.RecycleBinInfo.GetScreenshot1(new Rectangle(91, 28, 8, 8)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions RecycleBin_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        CompressedImage Close_Screenshot1
+        { get { return repo.RecycleBin.CloseInfo.GetScreenshot1(new Rectangle(24, 11, 8, 8)); } }
+
+        /// <summary>
+        /// DO NOT REFERENCE THIS CODE  - auto generated
+        /// </summary>
+        Imaging.FindOptions Close_Screenshot1_Options
+        { get { return Imaging.FindOptions.Default; } }
+
 #endregion
     }
 #pragma warning restore 0436
