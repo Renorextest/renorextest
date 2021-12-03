@@ -30,6 +30,7 @@ namespace TVPNGitDemo
         TVPNGitDemoRepositoryFolders.ExplorerAppFolder _explorer;
         TVPNGitDemoRepositoryFolders.RecycleBinAppFolder _recyclebin;
         TVPNGitDemoRepositoryFolders.Explorer1AppFolder _explorer1;
+        TVPNGitDemoRepositoryFolders.RenorextestRenorextestGoogleChromeAppFolder _renorextestrenorextestgooglechrome;
 
         /// <summary>
         /// Gets the singleton class instance representing the TVPNGitDemoRepository element repository.
@@ -49,6 +50,7 @@ namespace TVPNGitDemo
             _explorer = new TVPNGitDemoRepositoryFolders.ExplorerAppFolder(this);
             _recyclebin = new TVPNGitDemoRepositoryFolders.RecycleBinAppFolder(this);
             _explorer1 = new TVPNGitDemoRepositoryFolders.Explorer1AppFolder(this);
+            _renorextestrenorextestgooglechrome = new TVPNGitDemoRepositoryFolders.RenorextestRenorextestGoogleChromeAppFolder(this);
         }
 
 #region Variables
@@ -92,6 +94,15 @@ namespace TVPNGitDemo
         public virtual TVPNGitDemoRepositoryFolders.Explorer1AppFolder Explorer1
         {
             get { return _explorer1; }
+        }
+
+        /// <summary>
+        /// The RenorextestRenorextestGoogleChrome folder.
+        /// </summary>
+        [RepositoryFolder("3bda57aa-030f-4362-83a1-51271294fbf4")]
+        public virtual TVPNGitDemoRepositoryFolders.RenorextestRenorextestGoogleChromeAppFolder RenorextestRenorextestGoogleChrome
+        {
+            get { return _renorextestrenorextestgooglechrome; }
         }
     }
 
@@ -749,6 +760,72 @@ namespace TVPNGitDemo
                 get
                 {
                     return _recyclebinInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The RenorextestRenorextestGoogleChromeAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("3bda57aa-030f-4362-83a1-51271294fbf4")]
+        public partial class RenorextestRenorextestGoogleChromeAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _paneInfo;
+
+            /// <summary>
+            /// Creates a new RenorextestRenorextestGoogleChrome  folder.
+            /// </summary>
+            public RenorextestRenorextestGoogleChromeAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("RenorextestRenorextestGoogleChrome", "/form[@title>'Renorextest/renorextest -']", parentFolder, 30000, null, true, "3bda57aa-030f-4362-83a1-51271294fbf4", "")
+            {
+                _paneInfo = new RepoItemInfo(this, "Pane", "container[@accessiblename>'Renorextest/renorextest -']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]", "?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]", 30000, null, "a367c5c5-512a-4081-bc21-68992e057349");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("3bda57aa-030f-4362-83a1-51271294fbf4")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("3bda57aa-030f-4362-83a1-51271294fbf4")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Pane item.
+            /// </summary>
+            [RepositoryItem("a367c5c5-512a-4081-bc21-68992e057349")]
+            public virtual Ranorex.Container Pane
+            {
+                get
+                {
+                    return _paneInfo.CreateAdapter<Ranorex.Container>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Pane item info.
+            /// </summary>
+            [RepositoryItemInfo("a367c5c5-512a-4081-bc21-68992e057349")]
+            public virtual RepoItemInfo PaneInfo
+            {
+                get
+                {
+                    return _paneInfo;
                 }
             }
         }

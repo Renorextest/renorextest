@@ -5633,6 +5633,46 @@ kEqlUKlUIMuyEZhJreDghYcYO3MdJ8evwefzIRAI8DGj0Siy2SxKpRKq1SokSUK73YaiKIZsjnw+
 j0QigXQ6DZoLgsDvWK/XBzc6hsu1BRMfpP7Bj/TsAAAAAElFTkSuQmCC
 			</icon>
 		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="3bda57aa-030f-4362-83a1-51271294fbf4"
+		isrooted="True"
+		name="RenorextestRenorextestGoogleChrome"
+		refpath="/form[@title='Renorextest/renorextest - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="container,accessible"
+			capname="container"
+			id="a367c5c5-512a-4081-bc21-68992e057349"
+			name="Pane"
+			refimgid="99f4723c-141f-4911-b143-8524fce1998a"
+			refpath="/form[@title>'Renorextest/renorextest -']/container/container/container/container[2]/container[1]"
+			robustPath="/form[@title>'Renorextest/renorextest -']/?/?/container[@accessiblename='Google Chrome']/container[@accessiblerole='Pane']/container[2]/container[1]"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Renorextest/renorextest -']/container[@accessiblename&gt;'Renorextest/renorextest -']/container[@accessiblename='Google Chrome']/container/container[2]/container[1]
+			</item>
+			<basepath>
+				/form[@title&gt;'Renorextest/renorextest -']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKrSURBVDhPrY9fSBNxHMAHPtpDaWlZLZCisPK9
+9ObdqXNzujnX5aazpqKRkQ8qgQQJvVQajQgCbW428y3RSX/UoYiGVJv9sSm6u0KqUWRlDtvSu33p
+fr87hxG99YUP93Kfz/f7U/zXqc/I2MKWa5g5U0EvV6rmOKN6lTPkrbEGOsTp6eEZPdnYlJmeIv/+
+97yvt9k5kwbYUjWwJXkSelqEgmBRDgR1KhFi8fvgoFJWpLHmZya+qimzL5gKovGAcVOgWAzo5ICW
+gLfGgrGm9E2XZN+qZDzabAiIP0pyviSX6YC1FAlBEy0EjQTPGrN5tuQ4zxqO8ZyZcDOMIgEHDvRU
+91LtFhgykLBQkgvvzlXBfJ8Hej1crPPBR35ifGItNNIc/TpARMOPiEhkRBWJjhJL3MPcoziwz13D
+Ke9Ww8U6DUyLp873DYLpRhiK2sKguxaG4vYwzARDsP66GmL+PAkfBcI0bcUBUV5FAbLdDMPFJNqM
+ZUShGNBeDUODcwWWZ9tkORcH4AXVjAN7um1rIoCobS2Djv4PePOGjLDdXoEvgZtygJYCfqoFB9K6
+baHdoozY76wC57iPR9uRqLkifd3j34SfgWZBkhEkCP6cWhxQ3rMN73Kdgg0qh67D1MInOC+ejTa7
+xpZgZq4/9uu5Gm/G7/erBHijzcKBtM6KxlRnJaSK8k4cOQ3E/Qtw1tsBDV4XNHguwecprbwZBUiI
+TdOTLnvOVhxINGam7HBaF0VAogKzvasCkjotYB/Qxzfj032q5dYzygwsb0xHwKtUuqvGkIRI7irH
+HHQwsPgkf5NMLguzdYys/TnoklRHeU+Sw/Jjm8MCSXfM8NhbGMNv9qkE3kdPXq7fe1j+/R/DMAmH
+HCePJHeZraqeE42Rp1SL8IyqXX+pzYq/OT4KxW9HQeOvzs+EMAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
 		<basepath>
 		</basepath>
 	</rootfolder>
