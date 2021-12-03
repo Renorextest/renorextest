@@ -1,0 +1,11 @@
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.rxtmg
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.rxtst
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\RepositoryImages\TVPNGitDemoRepositoryc8181431.rximgres
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.exe.config
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.xml
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.exe
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\TVPNGitDemo.pdb
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\obj\x86\Debug\TVPNGitDemo.csprojResolveAssemblyReference.cache
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\obj\x86\Debug\TVPNGitDemo.exe
+C:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\obj\x86\Debug\TVPNGitDemo.pdb

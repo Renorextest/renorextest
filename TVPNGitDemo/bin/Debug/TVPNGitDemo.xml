@@ -1,0 +1,477 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TVPNGitDemo</name>
+    </assembly>
+    <members>
+        <member name="T:TVPNGitDemo.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:TVPNGitDemo.Recording1.repo">
+            <summary>
+            Holds an instance of the TVPNGitDemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:TVPNGitDemo.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:TVPNGitDemo.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.Recording1.RecycleBin_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.Recording1.RecycleBin_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.Recording1.Close_Screenshot1">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.Recording1.Close_Screenshot1_Options">
+            <summary>
+            DO NOT REFERENCE THIS CODE  - auto generated
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepository">
+            <summary>
+            The class representing the TVPNGitDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the TVPNGitDemoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepository.Explorer">
+            <summary>
+            The Explorer folder.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepository.RecycleBin">
+            <summary>
+            The RecycleBin folder.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepository.Explorer1">
+            <summary>
+            The Explorer1 folder.
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder">
+            <summary>
+            The ExplorerAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer  folder.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.Explorer">
+            <summary>
+            The Explorer item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.ExplorerInfo">
+            <summary>
+            The Explorer item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBin">
+            <summary>
+            The RecycleBin item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfo">
+            <summary>
+            The RecycleBin item info.
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.ExplorerInfoClass">
+            <summary>
+            The ExplorerInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.ExplorerInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            ExplorerInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.ExplorerInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.ExplorerInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass">
+            <summary>
+            The RecycleBinInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            RecycleBinInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.ExplorerAppFolder.RecycleBinInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder">
+            <summary>
+            The RecycleBinAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RecycleBin  folder.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestore">
+            <summary>
+            The MaximizeRestore item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfo">
+            <summary>
+            The MaximizeRestore item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBin">
+            <summary>
+            The RecycleBin item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfo">
+            <summary>
+            The RecycleBin item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBar">
+            <summary>
+            The TitleBar item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfo">
+            <summary>
+            The TitleBar item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass">
+            <summary>
+            The MaximizeRestoreInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            MaximizeRestoreInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.MaximizeRestoreInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass">
+            <summary>
+            The RecycleBinInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            RecycleBinInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.RecycleBinInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass">
+            <summary>
+            The TitleBarInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            TitleBarInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.TitleBarInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.CloseInfoClass">
+            <summary>
+            The CloseInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.CloseInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            CloseInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.CloseInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.RecycleBinAppFolder.CloseInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder">
+            <summary>
+            The Explorer1AppFolder folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Explorer1  folder.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBin">
+            <summary>
+            The RecycleBin item.
+            </summary>
+        </member>
+        <member name="P:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfo">
+            <summary>
+            The RecycleBin item info.
+            </summary>
+        </member>
+        <member name="T:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass">
+            <summary>
+            The RecycleBinInfoClass folder.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            RecycleBinInfoClass class constructor.
+            </summary>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass.GetScreenshot1">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <returns>The Screenshot1 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass.GetScreenshot1(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot1 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass.GetScreenshot2">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <returns>The Screenshot2 image.</returns>
+        </member>
+        <member name="M:TVPNGitDemo.TVPNGitDemoRepositoryFolders.Explorer1AppFolder.RecycleBinInfoClass.GetScreenshot2(System.Drawing.Rectangle)">
+            <summary>
+            Gets the Screenshot2 item image.
+            </summary>
+            <param name="cropRect">The bounds of the sub-image to return.</param>
+            <returns>The cropped image.</returns>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

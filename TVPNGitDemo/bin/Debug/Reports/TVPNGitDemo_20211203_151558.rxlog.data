@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="4.44s"
+		durationms="4438"
+		type="root"
+		rid="14247cc83c4a6e"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="1"
+		totalmaintenancemodecount="0"
+		user="Laptop"
+		rxversion="10.1.2.0"
+		host="RXDUT70"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="de-DE"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="12/3/2021 3:15:58 PM"
+		timestampiso="2021-12-03T14:15:58"
+		endtime="12/3/2021 3:16:03 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.38s"
+			durationms="2382"
+			type="test-suite"
+			rid="1210c3a27f8a67a2"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="1"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="1"
+			totalmaintenancemodecount="0"
+			testsuitename="TVPNGitDemo"
+			headertext="TVPNGitDemo"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Ignored"
+				duration="3ms"
+				durationms="3"
+				type="smart-folder"
+				rid="111408aef8abf016"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="1"
+				totalmaintenancemodecount="0"
+				testcontainername="SmartFolder"
+				testcontainerid="c2d66f5f-12f3-48d2-9c58-1a6d970554c6"
+				headertext="SmartFolder"
+				displayName="SmartFolder"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+			</activity>
+			<activity
+				result="Failed"
+				duration="2.34s"
+				durationms="2336"
+				type="test-case"
+				rid="7c74932f3e913af"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="0"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="19c052a6-d8ac-4339-821b-e88cf8fae365"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Failed"
+					duration="2.32s"
+					durationms="2316"
+					type="test-module"
+					rid="246bb443851b83"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="8ec7f707-ab3e-400b-87ce-9176981677bb"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to move to location '21;12' within element '{ListItem:Recycle Bin}'.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.078"
+						timeRelativeToTestModuleStartTime="00:00.015"
+						timeWallClock="15:16:00"
+						time="00:00.078"
+						level="Info"
+						category="Mouse"
+						errimg="images_TVPNGitD_c85472f\TVPNGitD_c85472f_365853bd_trace.jpg"
+						errthumb="images_TVPNGitD_c85472f\TVPNGitD_c85472f_365853bd_trace_thumb.jpg">
+						<message>
+							Mouse Left DoubleClick item 'Explorer1.RecycleBin' at 21;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+							itempath="?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+							fullname="TVPNGitDemoRepository.Explorer1.RecycleBin"
+							id="50d5990626c34a3fb6f6a356d29c0bba"
+							timeout="60000"
+							codefile="c:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\Recording1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.277"
+						timeRelativeToTestModuleStartTime="00:02.214"
+						timeWallClock="15:16:02"
+						time="00:02.277"
+						level="Error"
+						category="Module"
+						errimg="images_TVPNGitD_c85472f\TVPNGitD_c85472f_2d0a4af7_trace.jpg"
+						errthumb="images_TVPNGitD_c85472f\TVPNGitD_c85472f_2d0a4af7_trace_thumb.jpg">
+						<message>
+							Failed to move to location '21;12' within element '{ListItem:Recycle Bin}'.<br/>Image not found in element {ListItem:Recycle Bin}.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.DoubleClick(MouseButtons buttons, Location location, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.DoubleClick(Location location)
+   at TVPNGitDemo.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\Recording1.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="c:\Users\Laptop\Documents\Ranorex\RanorexStudio Projects\TVPNGitDemo\TVPNGitDemo\Recording1.cs"
+							codeline="83"
+							type="repoitem"
+							path="/desktop[@processname='explorer']/?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+							itempath="?/?/list[@controlid='1']/listitem[@text='Recycle Bin']"
+							fullname="TVPNGitDemoRepository.Explorer1.RecycleBin"
+							id="50d5990626c34a3fb6f6a356d29c0bba"
+							timeout="60000"
+							loglvl="Error"
+							itemindex="0">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

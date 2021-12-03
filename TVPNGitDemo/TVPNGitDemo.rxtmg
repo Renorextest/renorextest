@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc>
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="TVPNGitDemo"
+      id="4e852ee0-5a9b-4be3-aaf7-b1a8f52ba34a"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="TVPNGitDemo"
+      id="4e852ee0-5a9b-4be3-aaf7-b1a8f52ba34a"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>
